@@ -1,0 +1,62 @@
+Graph Matrix
+    0     1     2     3     4     5      
+0|   0     1     1     0     0     0     
+1|   0     0     0     0     0     0     
+2|   0     0     0     1     0     0     
+3|   1     0     0     0     0     0     
+4|   0     0     1     0     0     1     
+5|   0     1     0     1     0     0     
+Number of Verticies: 6
+Number of Edges: 8
+
+0
+1
+2
+3
+
+4
+2
+3
+0
+1
+5
+BFS Traversal
+5
+1
+3
+0
+2
+
+BFS Traversal
+4
+2
+5
+3
+1
+0
+
+BFS Traversal
+0
+1
+2
+3
+
+
+Shortest Paths
+ The shortest Paths from 4
+To 0: 3 2 4 
+To 1: 5 4 
+To 2: 4 
+To 3: 2 4 
+To 4: 4
+
+Shortest Paths
+ The shortest Paths from 5
+To 0: 3 5 
+To 1: 5 
+To 2: 0 3 5 
+To 3: 5 
+To 4: No path connected from 5 to 4
+There is no path from 2 to 4
+There exists a path from 5 to 2
+Triangle found at verticies: 023
